@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+* {
+  box-sizing: border-box;
+}
+
+.formField label {
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 10px;
+  width: 140px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 310px;
+  background-color: #EEEEEE;
+}
+
+.right {
+  background-color: #FAFAFA;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#results {
+	font-weight: bold;
+	height : 80px;
+}
+
+.cPrincipal {
+	width : 180px;
+	height : 20px;
+	font-size : 16px;
+    padding : 0px;
+}
+
+
+.cInterest {
+	width : 70px;
+	height : 20px;
+	font-size : 16px;
+    padding : 0px;
+}
+
+.cMonthly {
+	width : 180px;
+	height : 20px;
+	font-size : 16px;
+    padding : 0px;
+}
+
+.cNumMonths {
+	text-align : right;
+	height : 20px;
+}
+
+.cTotalInterest {
+	text-align : right;
+	height: 20px;
+}
+
+#logTable {
+	border-spacing : 4px 10px;
+}
+
+#logTable td {
+	text-align : center;
+}
+
+#logTable tr {
+	margin-bottom: 20px;
+}
+
+#submit {
+	float : right;
+}
